@@ -23,7 +23,39 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.cart-wrapper{
+  display: flex;
+  margin-left: 16px;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 350px;
+  border-radius: 14px;
+}
+.cart-wrapper .item{
+  margin: 15px;
+}
+.beautiful-button {
+  padding: 8px 13px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
 
+.beautiful-button:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover for a lifted effect */
+}
+.add-to-cart{
+  position: absolute;
+    right: 33px;
+    top: 104px;
+}
 .App-link {
   color: #61dafb;
 }
